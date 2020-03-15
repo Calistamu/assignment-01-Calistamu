@@ -1,11 +1,10 @@
 # 无人值守Linux安装iso
 ## 实验要求
-- [] [PXE](https://en.wikipedia.org/wiki/Preboot_Execution_Environment) 启动和无人值守同时安装 Debian & Ubuntu
 - [x] 如何配置无人值守安装iso并在Virtualbox中完成自动化安装。  
 实现特性：  
-* 1. 定制用户名和默认密码
-* 2. 定制安装OpenSSH Server
-* 3. 安装过程禁止自动联网更新软件包
+&ensp;- [x] 定制用户名和默认密码  
+&ensp;- [x] 定制安装OpenSSH Server  
+&ensp;- [x] 安装过程禁止自动联网更新软件包
 - [x] Virtualbox安装完Ubuntu之后新添加的网卡如何实现系统开机自动启用和自动获取IP？
 - [x] 如何使用sftp在虚拟机和宿主机之间传输文件
 ## 实验环境
@@ -55,7 +54,7 @@ rsync -av loopdir/ cd
 umount loopdir
 
 # 进入目标工作目录
-cd cd/
+cd cd
 
 # 编辑Ubuntu安装引导界面增加一个新菜单项入口
 vim isolinux/txt.cfg
@@ -103,10 +102,11 @@ bash shell
 ![](images/iso-ok.png)
 5. 将制作好的custom.iso拷贝到物理机，并安装,安装后使用ubuntu-server-autoinstall.seed中设置好的用户名和密码登录。
 ![](images/nameandpwd.png)
-
+## 实验结果
+>video/linux无人值守安装iso.mp4
 ## 实验问题
-server版的ubuntu如何从命令行挂载Virtualbox的虚拟光驱中镜像？
-server版的ubuntu如何安装Virtualbox增强功能套件？
-server版的ubuntu如何从命令行挂载Virtualbox的共享目录？
+1. server版的ubuntu如何从命令行挂载Virtualbox的虚拟光驱中镜像？  
+2. server版的ubuntu如何安装Virtualbox增强功能套件？  
+3. server版的ubuntu如何从命令行挂载Virtualbox的共享目录？
 ## 参考文献
 [Netplan configuration examples](https://netplan.io/examples)

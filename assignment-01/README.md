@@ -106,7 +106,37 @@ bash shell
 >video/linux无人值守安装iso.mp4
 ## 实验问题
 1. server版的ubuntu如何从命令行挂载Virtualbox的虚拟光驱中镜像？  
+答：使用[mount](https://www.cnblogs.com/itech/archive/2009/08/07/1541061.html)。
 2. server版的ubuntu如何安装Virtualbox增强功能套件？  
-3. server版的ubuntu如何从命令行挂载Virtualbox的共享目录？
+答：[Ubuntu-server安装VirtualBox增强功能](https://juejin.im/post/5d423d5f6fb9a06acc00637f)
+3. server版的ubuntu如何从命令行挂载Virtualbox的共享目录？  
+答：[Ubuntu-server安装VirtualBox增强功能后设置共享文件夹](https://juejin.im/post/5d423d5f6fb9a06acc00637f)
+4. 做了哪些修改？这些修改的作用是什么？  
+答：使用[在线比对工具](http://www.jq22.com/textDifference)，修改对比结果如下：
+![](images/change0.png)
+![](images/change1.png)
+![](images/change2.png)
+![](images/change3.png)
+![](images/change4.png)
+![](images/change5.png)
+![](images/change6.png)
+## 实验问题
+1. 最后安装出现了这样的报错
+![](images/wrong1.png)
+查看制作custom.iso的cd文件夹下是有ubuntu-server-autoinstall.seed文件的，文件来自老师github连接没有改动过。
+![](images/wrong2.png)
+解决：下载ubuntu-server-autoinstall.seed时出了错，下载成了.html文件，以致于所有的都错了，重新做了一遍实验。```rm -rf```删目录我记得很清晰了。
+## 实验扩展
+SSH跳板登录
+### 实验环境
+本机windows-git-bash  
+跳板机：kali-192.168.56.105  
+靶机：ubuntu-192.168.56.108
+```
+ssh username@目标机器IP -p 22 -J username@跳板机IP:22
+```
+![](images/jump-ok.png) 
 ## 参考文献
-[Netplan configuration examples](https://netplan.io/examples)
+[Netplan configuration examples](https://netplan.io/examples)  
+[师姐的实验](https://github.com/CUCCS/linux-2019-jckling/tree/master/0x01)  
+[SSH 通过跳板机直接访问内网机器](https://woodenrobot.me/2019/07/18/ssh-proxyjump/)

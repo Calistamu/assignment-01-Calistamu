@@ -19,7 +19,7 @@
 如下图所示安装成功并备份。
 ![](images/userset.png)
 2. 实现开机自动启用和自动获取IP。    
-```ipconfig-a```查看ip地址，此处得到：192.168.56.108。如下图修改'/etc/netplan/01-netcfg.yaml'保存退出后``` sudo netplan apply```，由于本次实验用不到更多，只进行了简单更改。
+```ifconfig -a```查看ip地址，此处得到：192.168.56.108。如下图修改'/etc/netplan/01-netcfg.yaml'保存退出后``` sudo netplan apply```，由于本次实验用不到更多，只进行了简单更改。
 ![](images/dhcp-set.jpg)
 3. 配置ssh服务。  
 由于安装时已选择openssh-server,此时不必在选择。在物理机上输入以下命令实现免密登录。

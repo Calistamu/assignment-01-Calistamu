@@ -103,8 +103,9 @@ bash shell
 5. 将制作好的custom.iso拷贝到物理机，并安装,安装后使用ubuntu-server-autoinstall.seed中设置好的用户名和密码登录。
 ![](images/nameandpwd.png)
 ## 实验结果
->video/linux无人值守安装iso.mp4
-## 实验问题
+>video/linux无人值守安装iso.mp4  
+[在线视频](https://www.bilibili.com/video/BV1i7411f7jq)
+## 实验结论
 1. server版的ubuntu如何从命令行挂载Virtualbox的虚拟光驱中镜像？  
 答：使用[mount](https://www.cnblogs.com/itech/archive/2009/08/07/1541061.html)。
 2. server版的ubuntu如何安装Virtualbox增强功能套件？  

@@ -9,7 +9,7 @@
 - [x] 如何使用sftp在虚拟机和宿主机之间传输文件
 ## 实验环境
 物理机：win10  
-虚拟机：Virtualbox中[Ubuntu 18.04.4 Server 64bit](https://mirror.tuna.tsinghua.edu.cn/ubuntu-cdimage/releases/18.04/release/) 
+虚拟机：Virtualbox中[Ubuntu 18.04.4 Server 64bit](https://mirror.tuna.tsinghua.edu.cn/ubuntu-cdimage/releases/18.04/release/)   
 网络环境：NAT+host-only(192.168.56.107)
 ## 实验步骤
 1. 先以有人值守方式安装ubuntu，步骤如下。    
@@ -34,6 +34,7 @@ ssh cuc@192.168.56.108
 ```
 如下图所示为成功ssh。
 ![](images/ssh-ok.png)
+
 4. 制作iso。
 * [ubuntu-server-autoinstall.seed](https://github.com/c4pr1c3/LinuxSysAdmin/blob/master/exp/chap0x01/cd-rom/preseed/ubuntu-server-autoinstall.seed#L18)
 ```
@@ -100,6 +101,7 @@ bash shell
 ```
 镜像制作成功
 ![](images/iso-ok.png)
+
 5. 将制作好的custom.iso拷贝到物理机，并安装,安装后使用ubuntu-server-autoinstall.seed中设置好的用户名和密码登录。
 ![](images/nameandpwd.png)
 ## 实验结果

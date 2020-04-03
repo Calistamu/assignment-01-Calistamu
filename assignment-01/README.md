@@ -104,6 +104,7 @@ bash shell
 ![](images/nameandpwd.png)
 ## 实验结果
 >video/linux无人值守安装iso.mp4  
+
 [在线视频](https://www.bilibili.com/video/BV1i7411f7jq)
 ## 实验结论
 1. server版的ubuntu如何从命令行挂载Virtualbox的虚拟光驱中镜像？  

@@ -30,7 +30,7 @@ asciinema upload demo.cast
 ```
 ### 2. 跟随vimtutor学习vim使用  
 #### Lesson-1
-<a href="https://asciinema.org/a/318303" target="_blank"><img src="https://asciinema.org/a/318303.svg" /></a> 
+<a href="https://asciinema.org/a/318303 autoplay=1" target="_blank"><img src="https://asciinema.org/a/318303.svg" width="666"/></a> 
 
 ##### Lesson-1课程总结
 ![](images/vim-lesson1.png)

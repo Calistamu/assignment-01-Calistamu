@@ -30,36 +30,47 @@ asciinema upload demo.cast
 ```
 ### 2. 跟随vimtutor学习vim使用  
 #### Lesson-1
-[![asciicast](https://asciinema.org/a/318303.svg)](https://asciinema.org/a/318303)  
-课程总结
+<a href="https://asciinema.org/a/318303" target="_blank"><img src="https://asciinema.org/a/318303.svg" /></a> 
+##### Lesson-1课程总结
 ![](images/vim-lesson1.png)
 #### Lesson-2
-[![asciicast](https://asciinema.org/a/318304.svg)](https://asciinema.org/a/318304)  
-课程总结
+<a href="https://asciinema.org/a/318304" target="_blank"><img src="https://asciinema.org/a/318304.svg" /></a>
+Lesson-2课程总结
 ![](images/vim-lesson2.png)
+
 #### Lesson-3
-[![asciicast](https://asciinema.org/a/318307.svg)](https://asciinema.org/a/318307)  
-课程总结
+<a href="https://asciinema.org/a/318307" target="_blank"><img src="https://asciinema.org/a/318307.svg" /></a> 
+
+##### Lesson-3课程总结
 ![](images/vim-lesson3.png)
+
 #### Lesson-4
-[![asciicast](https://asciinema.org/a/318309.svg)](https://asciinema.org/a/318309)  
-课程总结
+<a href="https://asciinema.org/a/318309" target="_blank"><img src="https://asciinema.org/a/318309.svg" /></a> 
+
+##### Lesson-4课程总结
 ![](images/vim-lesson4.png)
+
 #### Lesson-5
-[![asciicast](https://asciinema.org/a/318310.svg)](https://asciinema.org/a/318310)  
-课程总结
+<a href="https://asciinema.org/a/318310" target="_blank"><img src="https://asciinema.org/a/318310.svg" /></a> 
+
+##### Lesson-5课程总结
 ![](images/vim-lesson5.png)
+
 #### Lesson-6
-[![asciicast](https://asciinema.org/a/318311.svg)](https://asciinema.org/a/318311)  
-课程总结
+<a href="https://asciinema.org/a/318311" target="_blank"><img src="https://asciinema.org/a/318311.svg" /></a>
+
+##### Lesson-6课程总结
 ![](images/vim-lesson6.png)
 #### Lesson-7
-[![asciicast](https://asciinema.org/a/318312.svg)](https://asciinema.org/a/318312)  
-课程总结
+<a href="https://asciinema.org/a/318312" target="_blank"><img src="https://asciinema.org/a/318312.svg" /></a>
+
+##### Lesson-7课程总结
 ![](images/vim-lesson7.png)
+
 ## 实验问题
 1. 如何在markdown格式纯文本文件附上asciinema的分享URL?(以vim-lesson1的链接为例)
-![](problem1.png)
+* github要使用html的方式
+![](images/problem1.png)
 2. 学习lesson4单词替换时遇到问题，
 解决：输入的是```:s/old/new```而不是```s/old/new```
 ## 实验总结

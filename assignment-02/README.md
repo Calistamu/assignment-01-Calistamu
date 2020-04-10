@@ -30,32 +30,32 @@ asciinema upload demo.cast
 ```
 ### 2. 跟随vimtutor学习vim使用  
 #### Lesson-1
-[![asciicast](https://asciinema.org/a/318303.svg)](https://asciinema.org/a/318303)
-总结
+[![asciicast](https://asciinema.org/a/318303.svg)](https://asciinema.org/a/318303)  
+课程总结
 ![](images/vim-lesson1.png)
 #### Lesson-2
-[![asciicast](https://asciinema.org/a/318304.svg)](https://asciinema.org/a/318304)
-总结
+[![asciicast](https://asciinema.org/a/318304.svg)](https://asciinema.org/a/318304)  
+课程总结
 ![](images/vim-lesson2.png)
 #### Lesson-3
-[![asciicast](https://asciinema.org/a/318307.svg)](https://asciinema.org/a/318307)
-总结
+[![asciicast](https://asciinema.org/a/318307.svg)](https://asciinema.org/a/318307)  
+课程总结
 ![](images/vim-lesson3.png)
 #### Lesson-4
-[![asciicast](https://asciinema.org/a/318309.svg)](https://asciinema.org/a/318309)
-总结
+[![asciicast](https://asciinema.org/a/318309.svg)](https://asciinema.org/a/318309)  
+课程总结
 ![](images/vim-lesson4.png)
 #### Lesson-5
-[![asciicast](https://asciinema.org/a/318310.svg)](https://asciinema.org/a/318310)
-总结
+[![asciicast](https://asciinema.org/a/318310.svg)](https://asciinema.org/a/318310)  
+课程总结
 ![](images/vim-lesson5.png)
 #### Lesson-6
-[![asciicast](https://asciinema.org/a/318311.svg)](https://asciinema.org/a/318311)
-总结
+[![asciicast](https://asciinema.org/a/318311.svg)](https://asciinema.org/a/318311)  
+课程总结
 ![](images/vim-lesson6.png)
 #### Lesson-7
-[![asciicast](https://asciinema.org/a/318312.svg)](https://asciinema.org/a/318312)
-总结
+[![asciicast](https://asciinema.org/a/318312.svg)](https://asciinema.org/a/318312)  
+课程总结
 ![](images/vim-lesson7.png)
 ## 实验问题
 1. 如何在markdown格式纯文本文件附上asciinema的分享URL?(以vim-lesson1的链接为例)

@@ -13,8 +13,7 @@ Ubuntu18.04 Server
 systemd设计目标：为系统的启动和管理提供一套完整的解决方案。  
 Systemd 的优点是功能强大，使用方便，缺点是体系庞大，非常复杂。  
 当前systemd版本如下图所示：  
-![](imagee/systemd-version.png)
-
+![](images/systemd-version.png)
 * 由于[Systemd 入门教程：实战篇](http://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-part-two.html)是[Systemd 入门教程：命令篇](http://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-commands.html)的实战分析，因此结合两篇文章完成以下实验。  
 
 #### 1.系统管理

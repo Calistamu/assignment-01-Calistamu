@@ -8,21 +8,8 @@ Ubuntu18.04 Server
 镜像：ubuntu-18.04.1-server-amd64.iso  
   
 ## 实验步骤
-### 一、 apache2基本操作  
-apache2安装下载
-```
-sudo apt-get update
-sudo apt-get install apache2
-sudo /etc/init.d/apache2 restart
-```
-apache2启动
-```
-# 启动服务
-sudo /etc/init.d/apache2 start
-# 或者
-service apache2 start
-```
-### 二、Systemd学习
+
+### Systemd学习
 systemd设计目标：为系统的启动和管理提供一套完整的解决方案。  
 Systemd 的优点是功能强大，使用方便，缺点是体系庞大，非常复杂。  
 当前systemd版本如下图所示：  

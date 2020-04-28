@@ -14,12 +14,12 @@
 ## 实验步骤
 1. 先以有人值守方式安装ubuntu，步骤如下。    
 下载ubuntu-18.04.4镜像并安装，安装过程中已设置用户名和默认密码，如下图选择安装了OpenSSH Server，安装后备份纯净系统。
-* 安装ubuntu，有一个自动更新，如果选择，每次一打开系统就自动更新了，由于做作业不选择，生产环境下选择是错误行为
-![](images/openssh-choose.png)
-如下图所示安装成功并备份。
+* 安装ubuntu，有一个自动更新，如果选择，每次一打开系统就自动更新了，由于做作业不选择，生产环境下选择是错误行为  
+![](images/openssh-choose.png)  
+如下图所示安装成功并备份。  
 ![](images/userset.png)
 2. 实现开机自动启用和自动获取IP。    
-```ifconfig -a```查看ip地址，此处得到：192.168.56.108。如下图修改'/etc/netplan/01-netcfg.yaml'保存退出后``` sudo netplan apply```，由于本次实验用不到更多，只进行了简单更改。
+```ifconfig -a```查看ip地址，此处得到：192.168.56.108。如下图修改'/etc/netplan/01-netcfg.yaml'保存退出后``` sudo netplan apply```，由于本次实验用不到更多，只进行了简单更改。  
 ![](images/dhcp-set.jpg)
 3. 配置ssh服务。  
 由于安装时已选择openssh-server,此时不必在选择。在物理机上输入以下命令实现免密登录。
@@ -32,7 +32,7 @@ ssh-copy-id cuc@192.168.56.108
 #免密登录
 ssh cuc@192.168.56.108
 ```
-如下图所示为成功ssh。
+如下图所示为成功ssh。  
 ![](images/ssh-ok.png)
 
 4. 制作iso。
@@ -99,35 +99,35 @@ sudo apt install genisoimage
 #执行shell脚本 进行镜像刻录
 bash shell
 ```
-镜像制作成功
+镜像制作成功  
 ![](images/iso-ok.png)
 
-5. 将制作好的custom.iso拷贝到物理机，并安装,安装后使用ubuntu-server-autoinstall.seed中设置好的用户名和密码登录。
+5. 将制作好的custom.iso拷贝到物理机，并安装,安装后使用ubuntu-server-autoinstall.seed中设置好的用户名和密码登录。  
 ![](images/nameandpwd.png)
 ## 实验结果
 >video/linux无人值守安装iso.mp4  
 
 [在线视频](https://www.bilibili.com/video/BV1i7411f7jq)
 ## 实验结论
-1. server版的ubuntu如何从命令行挂载Virtualbox的虚拟光驱中镜像？  
+1. server版的ubuntu如何从命令行挂载Virtualbox的虚拟光驱中镜像？    
 答：使用[mount](https://www.cnblogs.com/itech/archive/2009/08/07/1541061.html)。
-2. server版的ubuntu如何安装Virtualbox增强功能套件？  
+2. server版的ubuntu如何安装Virtualbox增强功能套件？    
 答：[Ubuntu-server安装VirtualBox增强功能](https://juejin.im/post/5d423d5f6fb9a06acc00637f)
-3. server版的ubuntu如何从命令行挂载Virtualbox的共享目录？  
+3. server版的ubuntu如何从命令行挂载Virtualbox的共享目录？    
 答：[Ubuntu-server安装VirtualBox增强功能后设置共享文件夹](https://juejin.im/post/5d423d5f6fb9a06acc00637f)
-4. 做了哪些修改？这些修改的作用是什么？  
-答：使用[在线比对工具](http://www.jq22.com/textDifference)，修改对比结果如下：
-![](images/change0.png)
-![](images/change1.png)
-![](images/change2.png)
-![](images/change3.png)
-![](images/change4.png)
-![](images/change5.png)
-![](images/change6.png)
+4. 做了哪些修改？这些修改的作用是什么？    
+答：使用[在线比对工具](http://www.jq22.com/textDifference)，修改对比结果如下：  
+![](images/change0.png)  
+![](images/change1.png)  
+![](images/change2.png)  
+![](images/change3.png)  
+![](images/change4.png)  
+![](images/change5.png)  
+![](images/change6.png)  
 ## 实验问题
-1. 最后安装出现了这样的报错
-![](images/wrong1.png)
-查看制作custom.iso的cd文件夹下是有ubuntu-server-autoinstall.seed文件的，文件来自老师github连接没有改动过。
+1. 最后安装出现了这样的报错  
+![](images/wrong1.png)  
+查看制作custom.iso的cd文件夹下是有ubuntu-server-autoinstall.seed文件的，文件来自老师github连接没有改动过。  
 ![](images/wrong2.png)
 解决：下载ubuntu-server-autoinstall.seed时出了错，下载成了.html文件，以致于所有的都错了，重新做了一遍实验。```rm -rf```删目录我记得很清晰了。
 ## 实验扩展

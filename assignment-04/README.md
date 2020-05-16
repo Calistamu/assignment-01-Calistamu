@@ -1073,8 +1073,17 @@ printf '%s' '—' | xxd
 重新下载后：  
 ![](images/wrong2.png)
 ## 实验总结
-烧脑一次解决以后千万次的手工，批处理好强大。
+1. 烧脑一次解决以后千万次的手工，shell script好强大。
+2. Travis是一个用于连续集成的平台。这个想法很简单。设置好之后，每当您将代码推送到Travis正在监视的repo时，Travis就会为您的repo启动一个容器，并针对repo运行一个或多个脚本。这通常意味着测试。事实证明，这对学生来说是一个有用的完整性检查。  
+具体执行：在目标库的根目录下，添加一个.travis.yml文件
+* 由于我们是
+* Travis有两个网址：https://travis-ci.org/和https://travis-ci.com/
+org的那个是非盈利的，为GitHub上public的repository提供免费服务；com的那个是盈利的，可以对private的提供付费服务。com前100次build是免费的，此后按月收费。
+
 ## 参考文献
 [BashPitfalls](https://mywiki.wooledge.org/BashPitfalls)  
 [BASH Programming - Introduction HOW-TO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)  
-[Shell Scripting Tutorial](https://www.tutorialspoint.com/unix/shell_scripting.htm)
+[Shell Scripting Tutorial](https://www.tutorialspoint.com/unix/shell_scripting.htm)  
+[Github Classroom and Travis CI](https://cestlaz.github.io/post/github-classroom-travis/)  
+[Travis tutorial](https://docs.travis-ci.com/user/tutorial/)  
+[Travis-GitHub Pages Deployment](https://docs.travis-ci.com/user/deployment/pages/)

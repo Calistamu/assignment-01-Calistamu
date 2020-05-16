@@ -627,7 +627,7 @@ printf '%s' '—' | xxd
 ### TASK2
 >实验代码：code/task2.sh 
 
->实验附件-【2014世界杯运动员数据】：code/worldcupplayerinfo.tsv
+>实验附件-【2014世界杯运动员数据】：worldcupplayerinfo.tsv仓库中没有给出从课件链接中下载
 
 0. 帮助信息
 1. 统计不同年龄区间范围（20岁以下、[20-30]、30岁以上）的球员数量、百分比
@@ -640,7 +640,7 @@ printf '%s' '—' | xxd
 >实验代码：code/task3.sh 
 
 
->实验附件-【Web服务器访问日志】：code/weblog.tsv
+>实验附件-【Web服务器访问日志】：weblog.tsv仓库中没有给出从课件链接中下载
 0. 帮助信息以及weblog.tsv中的数据信息
 ![](images/3-1.png)
 1. 统计访问来源主机TOP 100和分别对应出现的总次数

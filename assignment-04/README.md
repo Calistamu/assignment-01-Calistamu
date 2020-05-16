@@ -1073,6 +1073,8 @@ printf '%s' '—' | xxd
 重新下载后：  
 ![](images/wrong2.png)
 ## 实验总结
+烧脑一次解决以后千万次的手工，批处理好强大。
 ## 参考文献
 [BashPitfalls](https://mywiki.wooledge.org/BashPitfalls)  
-[BASH Programming - Introduction HOW-TO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
+[BASH Programming - Introduction HOW-TO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)  
+[Shell Scripting Tutorial](https://www.tutorialspoint.com/unix/shell_scripting.htm)
